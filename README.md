@@ -1,5 +1,12 @@
 # car_rental
 renta de autos
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
 ejecutar DML
 
 ejecutar DDL
