@@ -1,20 +1,62 @@
 # car_rental
 renta de autos
 
-To deploy this project run
+## instrucciones
+
+### -instala MySQL
+
+[MYSQL](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+
+### -Clona el proyecto
 
 ```bash
-  npm run deploy
+  git clone https://link-to-project](https://github.com/rodrigoCeron93/car_rental.git
 ```
 
-ejecutar DML
+### -Dirijete al directorio donde se descargo el proyecto
 
-ejecutar DDL
+```bash
+  cd tu_ruta/car_rental
+```
 
-python -m venv entorno
-linux    source ./entorno/bin/activate
-windows {ruta_del_proyecto}\entorno\Scripts\activate
+### -Ejecuta el DML.sql en MySQL
 
-pip install -r lib.txt 
+### -Ejecuta el DDL.sql en MySQL
 
-python ETL.py 
+### -Crea un entorno virtual de python
+
+```bash
+  python -m venv entorno
+```
+
+## -Activa el entorno virtual
+
+#### en linux
+
+```bash
+  source ./entorno/bin/activate
+```
+
+#### en windows
+
+```bash
+  {ruta_del_proyecto}\entorno\Scripts\activate
+```
+
+### -instala las librerias necesarias
+
+```bash
+  pip install -r lib.txt 
+```
+
+### -ejecuta el ETL.py
+
+```bash
+  python ETL.py 
+```
+
+### -abre mysql y ejecuta
+
+```bash
+ SELECT * FROM carrental.car_rental;
+```
